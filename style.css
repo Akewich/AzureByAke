@@ -56,8 +56,9 @@ span{
     margin-bottom: -10px;
 }
 
-.home-content p{
-    font-size: 1.6rem;
+.home-content li{
+    font-size: 2rem;
+    padding-bottom: 1px;
 }
 
 .home-img{
@@ -88,3 +89,83 @@ span{
 .typing-text span{
     position: relative;
 }
+/* Education */
+.edText{
+    font-size: 34px;
+}
+.year1 {
+    display: inline-flex;
+    margin-left: 200px;
+}
+.year2 {
+    display: inline-flex;
+    margin-left: 180px;
+}
+.education li{
+    font-size: 25px;
+}
+.education p{
+    color:darkgrey;
+    font-size: 18px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+}
+/* language */
+.lanText {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.language li{
+    font-size: 18px;
+    padding-top: 10px;
+}
+/* skill */
+.skill {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skill h3 {
+    font-size: 25px;
+}
+.skill li{
+    padding-top: 10px;
+    font-size: 18px;
+}
+/* Hobby */
+.hobby {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hobby h3 {
+    font-size: 25px;
+}
+.hobby li {
+    padding-top: 10px;
+    font-size: 18px;
+}
+/* contacts */
+.contact {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact h3 {
+    font-size: 25px;
+}
+.contact li {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
